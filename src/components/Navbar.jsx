@@ -51,7 +51,7 @@ export default function Navbar() {
                   </a>
                 ) : (
                   <Link
-                    to={section === 'tokenomics' ? 'tokenomics' : section}
+                    to={section === 'home' ? 'about' : section === 'vision' ? 'vision-mission' : section === 'tokenomics' ? 'tokenomics' : section}
                     smooth={true}
                     duration={500}
                     offset={-100}
