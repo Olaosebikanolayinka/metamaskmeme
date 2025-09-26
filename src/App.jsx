@@ -3,7 +3,7 @@ import './App.css';
 import './index.css';
 import Loader from './components/Loader';
 import Navbar from './components/Navbar';
-import About from './components/About';
+import About from './components/Home';
 import Tokenomic from './components/Tokenomic';
 import RoadMap from './components/RoadMap';
 import HowToBuy from './components/HowToBuy';

@@ -8,7 +8,7 @@ import { FaTwitter, FaTelegramPlane } from "react-icons/fa";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   // Use ids that match the section ids in the page
-  const navLinks = ["about", "vision", "how-to-buy", "tokenomics", "roadmap", "utilities", "whitepaper"];
+  const navLinks = ["home", "vision", "how-to-buy", "tokenomics", "roadmap", "utilities", "whitepaper"];
   return (
     <>
       <nav className="fixed top-4 left-0 w-full z-50">
@@ -64,6 +64,8 @@ export default function Navbar() {
                       ? 'Vision'
                       : section === 'utilities'
                       ? 'Utilities'
+                      : section === 'home'
+                      ? 'Home'
                       : section.charAt(0).toUpperCase() + section.slice(1)}
                   </Link>
                 )}
