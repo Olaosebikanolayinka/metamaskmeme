@@ -15,22 +15,24 @@ export default function Hero() {
         }}
       ></div>
       <div
-        className="hero-card animate-fade-in-up relative z-10 bg-black/90 rounded-2xl shadow-xl backdrop-blur-md flex flex-col items-start ml-[5vw]"
+  className="hero-card animate-fade-in-up relative z-10 bg-gradient-to-br from-black/90 via-gray-900/90 to-gray-800/90 rounded-3xl shadow-2xl backdrop-blur-lg flex flex-col items-start ml-[5vw] border border-amber-600/20"
         style={{
-          boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.15)',
+          boxShadow: '0 12px 40px 0 rgba(31, 38, 135, 0.18)',
           padding: '2.5rem',
           maxWidth: 600,
           width: '90vw',
         }}
       >
         <h1
-          className="text-3xl md:text-4xl font-bold mb-5 text-amber-600"
+          className="text-3xl md:text-4xl font-bold mb-5 text-amber-600 w-full drop-shadow-lg"
           style={{ lineHeight: 1.1 }}
         >
           MetamaskMeme Token ($MASK)
         </h1>
-        <p className="text-base md:text-lg text-white font-medium leading-relaxed">
-          MetamaskMeme Token ($MASK) is a community-driven meme token built on the Solana blockchain, designed to merge the fun culture of meme coins with the fast, low-cost, and scalable ecosystem of Solana. The project aims to foster a decentralized community while creating real-world use cases and long-term value through accessibility, speed, and inclusivity.
+        <p className="text-sm md:text-base text-white font-normal leading-relaxed mt-2">
+          MetaMaskMeme ($MASK) is a community-driven Solana meme token inspired by the global adoption of MetaMask and the viral power of internet culture. Designed to merge humor with utility, $MASK aims to capture the spirit of decentralization, reward early adopters, and fuel a vibrant ecosystem of memes, engagement, and innovation.
+
+          With a fair launch approach, strong liquidity, and community-first incentives, $MASK seeks to become more than just a meme—it is a symbol of Web3 culture and a gateway to accessible, fun, and rewarding blockchain participation.
         </p>
       </div>
       <style>{`

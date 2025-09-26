@@ -26,14 +26,14 @@ export default function HowToBuy() {
       id: 2,
       title: "Fund Your Wallet",
       description:
-        "Purchase Solana (SOL) from an exchange like Coinbase or Binance. Transfer the ETH to your MetaMask wallet address.",
+        "Purchase Solana (SOL) from an exchange like Coinbase or Binance. Transfer the SOL to your MetaMask wallet address.",
       icon: <CreditCardIcon className="w-10 h-10 text-green-500" />,
     },
     {
       id: 3,
       title: "Connect to Uniswap",
       description:
-        "Open the browser inside MetaMask, go to Uniswap, and connect your wallet to the platform.",
+        "Open the browser inside MetaMask, go to Raydium, and connect your wallet to the platform.",
       icon: <LinkIcon className="w-10 h-10 text-blue-500" />,
     },
     {

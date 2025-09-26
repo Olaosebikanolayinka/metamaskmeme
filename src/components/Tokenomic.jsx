@@ -22,13 +22,7 @@ export default function Tokenomics() {
           Tokenomics
         </h2>
         {/* Chart - 3D effect */}
-        <motion.div
-          className="flex justify-center mb-16 w-full"
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: false, amount: 0.3 }}
-          transition={{ duration: 0.8 }}
-        >
+        <div className="flex flex-col md:flex-row justify-center items-center mb-10 w-full gap-6">
           <motion.div
             className="w-full max-w-2xl h-[420px] flex items-center justify-center"
             animate={{ rotate: [0, 360] }}
@@ -57,10 +51,16 @@ export default function Tokenomics() {
               </PieChart>
             </ResponsiveContainer>
           </motion.div>
-        </motion.div>
+          {/* Total Supply */}
+          <div className="bg-black/80 border border-amber-400 rounded-xl px-6 py-3 text-lg md:text-xl font-bold text-amber-300 shadow-lg mt-6 md:mt-0 md:ml-6 min-w-[220px] text-center">
+            Total Supply: 1.05 Billion $MASK
+          </div>
+        </div>
+        
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  {/* Cards */}
+  <h3 className="text-xl md:text-2xl font-bold text-amber-400 mb-6 mt-10 text-center w-full">Allocation Breakdown:</h3>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {data.map((item, index) => (
             <motion.div
               key={index}
@@ -98,6 +98,17 @@ export default function Tokenomics() {
               </p>
             </motion.div>
           ))}
+        </div>
+
+        {/* Highlights */}
+        <div className="mt-10 max-w-3xl mx-auto bg-black/70 border border-amber-400/30 rounded-2xl px-6 py-6 shadow-lg">
+          <h4 className="text-lg md:text-xl font-bold text-amber-400 mb-3">Highlights</h4>
+          <ul className="list-disc list-inside text-white/90 space-y-2 text-sm md:text-base">
+            <li>Majority allocation to liquidity ensures stability.</li>
+            <li>Burn mechanism builds scarcity over time.</li>
+            <li>Clear focus on partnerships, exchange listings, and growth.</li>
+            <li>Community & charity allocations reflect real impact and inclusivity.</li>
+          </ul>
         </div>
       </div>
 

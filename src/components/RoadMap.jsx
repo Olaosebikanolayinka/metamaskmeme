@@ -30,40 +30,40 @@ export default function RoadMap() {
 
   const phases = [
     {
-      title: "Phase 1: Metamaskmeme ($MASK) Genesis (Q1)",
+      title: "Phase 1: Launch awareness",
       items: [
-        "Token creation & Pumpfun Launch",
-        "Community-building: Twitter/X, Telegram set up.",
-        "Meme contests: “What did The Metamaskmeme ($MASK) predict?”",
-        "Whitelist airdrops to early Metamaskmeme ($MASK) fans.",
+        "Token deployment on Solana",
+        "Website & whitepaper release",
+        "Airdrop & community onboarding",
+        "Initial meme contests to spark engagement.",
         
       ],
     },
     {
-      title: "Phase 2: Expansion (Q2)",
+      title: "Phase 2: Growth & Integration",
       items: [
-        "Dex listings & liquidity lock",
-        "NFT meme collectibles drop",
-        "Partnerships with meme communities",
-        "Telegram sticker pack release",
+        "CEX & DEX listings (partnerships allocation utilized)",
+        "Meme-to-Earn platform beta release",
+        "$MASK NFT collection launch",
+        "Influencer & KOL partnerships",
       ],
     },
     {
-      title: "Phase 3: Utility (Q3)",
+      title: "Phase 3: Ecosystem Expansion",
       items: [
-        "Staking pool for Homer holders",
-        "AI meme generator beta",
-        "Influencer collabs",
-        "Weekly Metamaskmeme ($MASK) Leaderboards",
+        "DAO-lite governance implementation",
+        "Charity fund activation with first community-voted donation",
+        "Strategic partnerships with meme pages, crypto influencers, and DeFi projects",
+        "Burn events to reinforce deflationary model",
       ],
     },
     {
-      title: "Phase 4: Moonshot (Q4)",
+      title: "Phase 4: Long-Term Sustainability",
       items: [
-        "CEX listings",
-        "Global marketing campaign",
-        "Animated short series pilot",
-        "Community governance launch",
+        "Full Meme-to-Earn ecosystem launch",
+        `Cross-chain expansion (Ethereum & BSC bridges)`,
+        "Large-scale meme competitions with sponsorships",
+        "Becoming the #1 meme hub on Solana",
       ],
     },
   ];
