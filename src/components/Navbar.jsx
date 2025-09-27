@@ -43,8 +43,9 @@ export default function Navbar() {
               <li key={section} className="my-2 md:my-0">
                 {section === 'whitepaper' ? (
                   <a
-                    href="/whitepaper.pdf"
-                    download
+                    href="https://metamaskmeme.gitbook.io/www.metamaskmeme.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="cursor-pointer hover:text-amber-600 transition block px-2 py-1 text-xs md:text-sm"
                   >
                     Whitepaper
